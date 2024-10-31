@@ -20,3 +20,83 @@ label {
 input:focus {
   outline: none;
 }
+
+body {
+  background: #f9f9f9;
+}
+
+form {
+  display: flex;
+  width: 400px;
+  padding: 32px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 32px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 50px;
+}
+
+.login-heading h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.login-heading h3 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.login-label {
+  color: #555;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login-input {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  padding-left: 12px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-submit {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #1576ea;
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  border: 0px;
+  transition: 0.4s;
+}
+
+.login-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.login-submit:hover {
+  background: black;
+}
+
+.login-input:focus {
+  border: 1px solid #000;
+  background: #eee;
+}
